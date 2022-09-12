@@ -5,7 +5,7 @@ from salad import Salad
 class OrderFactory:
 
     @staticmethod
-    def create_order(self, dish_name):
+    def create_order(dish_name):
         """
         create_order method: static
         """
