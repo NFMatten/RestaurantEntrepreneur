@@ -1,11 +1,10 @@
 from order import Order
 
-class BreadSticks(Order):
+class Salad(Order):
     def __init__(self) -> None:
         """
-        dish_name: string
+        super().init parameter: string
         price: int
         """
-        super().__init__()
-        self.dish_name = "Break Sticks"
+        super().__init__("Salad")
         self.price = 6

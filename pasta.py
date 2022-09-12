@@ -3,9 +3,8 @@ from order import Order
 class Pasta(Order):
     def __init__(self) -> None:
         """
-        dish_name: string
+        super().init parameter: string
         price: int
         """
-        super().__init__()
-        self.dish_name = "Pasta"
+        super().__init__("Pasta")
         self.price = 9

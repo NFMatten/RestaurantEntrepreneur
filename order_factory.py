@@ -1,10 +1,18 @@
+from pizza import Pizza
+from pasta import Pasta
+from salad import Salad
 
 class OrderFactory:
-    def __init__(self) -> None:
-        pass
 
-    def create_order():
+    @staticmethod
+    def create_order(self, dish_name):
         """
         create_order method: static
         """
-        pass
+        if dish_name == "Pizza":
+            return Pizza()
+        elif dish_name == "Pasta":
+            return Pasta()
+        elif dish_name == "Salad":
+            return Salad()
+ 
