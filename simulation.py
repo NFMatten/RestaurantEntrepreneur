@@ -5,7 +5,6 @@ class Simulation:
         """
         run_simulation method: void
         """
-
         location_one = Franchise(1)
         location_two = Franchise(2)
         location_three = Franchise(3)
