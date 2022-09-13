@@ -1,0 +1,15 @@
+# Test 1 
+Transaction 1: Salad at location 1 for $6 Daily Revenue: $6
+Transaction 2: Pasta at location 2 for $9 Daily Revenue: $15
+Transaction 3: Pizza at location 3 for $12 Daily Revenue: $27
+Transaction 4: Pizza at location 1 for $12 Daily Revenue: $39
+Transaction 5: Pasta at location 2 for $9 Daily Revenue: $48
+Transaction 6: Salad at location 3 for $6 Daily Revenue: $54
+
+# Test 2: Different orders (change in price to test change to daily revenue)
+Transaction 1: Pizza at location 1 for $12 Daily Revenue: $12
+Transaction 2: Pasta at location 2 for $9 Daily Revenue: $21
+Transaction 3: Pizza at location 3 for $12 Daily Revenue: $33
+Transaction 4: Salad at location 1 for $6 Daily Revenue: $39
+Transaction 5: Pizza at location 2 for $12 Daily Revenue: $51
+Transaction 6: Pizza at location 3 for $12 Daily Revenue: $63

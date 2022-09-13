@@ -1,10 +1,11 @@
 from order import Order
 
 class Pasta(Order):
-    def __init__(self) -> None:
+    def __init__(self):
         """
-        super().init parameter: string
-        price: int
+        super().__init__ parameter: 
+            dish_name: string
+            price: int
         """
-        super().__init__("Pasta")
-        self.price = 9
+        
+        super().__init__("Pasta", 9)
